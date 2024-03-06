@@ -1,0 +1,57 @@
+@media screen and (min-width:1200px){
+
+    .ProjectMainContainer{
+        background-color: #1C0059;
+    }
+
+    .ProjectSectionContainer{
+        width:80%;
+        height: 100vh;
+        margin: auto;
+    }
+
+    h1{
+        font-size:64px;
+        text-align: left;
+        padding-top: 10%;
+        color: #D6C9D9;
+        font-family: Jura, Roboto, sans-serif;
+        
+    }
+
+    .ProjectContainer{
+        margin-top: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ProjectContainer div{
+        box-shadow: 0px 0px 50px 0px rgba(200, 0, 255, 0.59);
+        border: 7px solid #0D0028;
+        width:18%;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.6s ease;
+    }
+
+    .ProjectContainer div:hover{
+    transform: scale(1.2);
+    }
+
+    .ProjectContainer div img {
+        width:95%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+
+    .ProjectContainer div p{
+        color: aliceblue;
+        font-family: Jura, Roboto, sans-serif;
+        padding-left: 1em;
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+    }
+}

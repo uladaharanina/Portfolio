@@ -1,0 +1,57 @@
+
+@media screen and (min-width:1200px){
+
+    .HomeSectionContainer{  
+        background-color: #1C0059;
+        height: 100vh;
+    }
+
+    .headerContainer{
+        padding-top: 1%;
+    }
+
+    .introductionBlock{
+        width:80%;
+        padding-top: 10%;
+        margin:auto;
+    }
+    
+    #HomeHeader{
+        font-size:96px;
+        text-align: left;
+        color: #D6C9D9;
+        font-family: Kanit, Roboto, sans-serif;
+        line-height: 1.26;
+    }
+    
+    span{
+        color:#C800FF;
+    }
+
+    .ResumeBlock{
+        width:80%;
+        margin:auto;
+    }
+
+    #resumeBtn{
+        margin-top: 3%;
+        display: block;
+        border: 5px solid #C800FF;
+        cursor: pointer;
+        width:300px;
+        color: #D6C9D9;
+        font-size: 1.6em;
+        padding: 1% 0;
+        text-decoration: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 15px 0px rgba(200, 0, 255, 0.59);
+        font-family: Jura, Roboto, sans-serif;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+    #resumeBtn:hover{
+       background-color: #C800FF;
+        color: white;
+    }
+}
