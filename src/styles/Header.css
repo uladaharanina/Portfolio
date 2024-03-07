@@ -2,25 +2,39 @@
 @media screen and (min-width:1200px){
 
     header{
-        width:80%;
+        width:100%;
         border-radius: 10px;
         position: fixed;
         z-index: 2;
+        background-color: #282829;
     }
 
     header section{
-        display: flex;
-        width:80%;
+        width:100%;
         padding: 2% 0;
         margin: auto;
-        justify-content: space-between;
-        align-items: center;
     }
 
     #logo_container{
         display: flex;
+        border-bottom:2px solid rgb(255, 255, 255);
+        background-color: #282829;
+        padding: 0 0 1.5em 0;
         align-items: center;
+        justify-content: center;
     }
+
+    #logo_container p{
+
+        margin: 0;
+    }
+
+    #logo_container img{
+
+        margin: 0 20px 0 0;
+        width:70px;
+    }
+
 
     header p{
         color: #FFFFFF;
@@ -32,19 +46,23 @@
 
     header ul{
         display: inline-block;
+        width:100%;
+        text-align: center;
+        margin: auto;
+        padding-top: 2em;
     }
 
     header li{
+
         color: #FFFFFF;
         display: inline-block;
-        margin-left: 2em;
         font-family: Jura, Roboto, sans-serif;
         font-size: 1.4em;
         cursor: pointer;
        
     }
-
     header li a{
+
         text-decoration: none;
         color: #FFFFFF;
         transition: color 0.5s ease;
@@ -53,19 +71,19 @@
     header li::before{
         content:"<";
         opacity: 0;
-        color:#C800FF;
+        color:#91a4c7;
         transition: all 0.2s ease;
     }
 
     header li::after{
         content:"/>";
-        color:#C800FF;
+        color:#91a4c7;
         opacity: 0;
         transition: all 0.2s ease;
     }
 
     header li a:hover{
-        color:#C800FF;
+        color:#91a4c7;
     }
 
     header li:hover::before{

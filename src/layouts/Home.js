@@ -14,12 +14,11 @@ export const Home = () => {
             <Header></Header>
           </section>
           <section className='introductionBlock'>
-            <h1 id="HomeHeader">Hello<br></br> 
-                I’m <span>Ulada,</span><br></br> 
-                Software Engineer</h1>
-          </section>
-          <section className='ResumeBlock'>
-           <a href="./resume.pdf" download="resume.pdf" id='resumeBtn'>Load Resume</a>
+            <h1 id="HomeHeader">
+              <span id = "title_lower_case">Hello, I am</span><br></br> 
+                <span id ="title_capital_case">Vlada Haranina</span><br></br> 
+                <span id = "title_description">A Professional Software And Web Developer</span
+            ></h1>
           </section>
         </main>
             <section className = "skillsSection" id="skills">
