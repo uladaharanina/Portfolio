@@ -2,56 +2,27 @@
 
     .ProjectMainContainer{
         background-color: #282829;
+        color:white;
+
     }
 
-    .ProjectSectionContainer{
-        width:80%;
-        height: 100vh;
-        margin: auto;
-    }
-
-    h1{
-        font-size:64px;
-        text-align: left;
-        padding-top: 10%;
-        color: #D6C9D9;
-        font-family: Jura, Roboto, sans-serif;
-        
-    }
-
-    .ProjectContainer{
-        margin-top: 5em;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .ProjectContainer div{
-        box-shadow: 0px 0px 50px 0px rgba(200, 0, 255, 0.59);
-        border: 7px solid #0D0028;
-        width:18%;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: all 0.6s ease;
-    }
-
-    .ProjectContainer div:hover{
-    transform: scale(1.2);
-    }
-
-    .ProjectContainer div img {
-        width:95%;
-        display: block;
-        margin: auto;
-        margin-top: 10px;
-        border-radius: 20px;
-    }
-
-    .ProjectContainer div p{
-        color: aliceblue;
-        font-family: Jura, Roboto, sans-serif;
-        padding-left: 1em;
+    .ProjectSectionContainer h2{
+        font-size: 3em;
+        line-height: 2.6;
+        margin-left: 15%;
         margin-top: 1em;
-        padding-bottom: 0.5em;
+        font-weight: 300;
     }
+  
+    .carousel_container{
+        border:2px solid red;
+        margin: auto;
+        width:70%;
+    }
+
+    .carousel_container img{
+        border:2px solid green;
+        width:350px!important;
+    }
+
 }
