@@ -1,8 +1,8 @@
 .projectMainContainer{
     margin-top: 10%;
-    padding: 5em 0;
+    padding: 2em 0;
+    min-height: 100vh;
     font-family: 'Jura', Helvetica, sans-serif;
-    box-shadow: 20px 10px 10px white;
 }
 
 .projectMainContainer h2{
@@ -10,7 +10,7 @@
     line-height: 2.6;
     color:white;
     margin-left: 10%;
-    margin-top: 6%;
+    margin-top: 10%;
     font-weight: 300;
 }
 
@@ -23,10 +23,35 @@
     
 }
 
+.carousel-indicators{
+    width:40%;
+    background-color: transparent;
+    margin: auto;
+}
+
+.carousel-indicators button{
+    width:50px;
+    border-radius: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.171);
+    height: 10px;
+    box-shadow: none;
+    margin: 2em 10px 0;
+
+}
+
+.carousel-indicators button:focus{
+    outline:none;
+}
+
+.active{
+    background-color: white;
+    outline: none;
+}
+
 .carousel_container img{
-    width:280px;
-    margin-left: 2%;
-    margin-right: 3%;
+    width:200px;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 
 .slide_container{
@@ -55,8 +80,19 @@
 .slide_container div a{
     border: 2px solid white;
     font-size: 1.2em;
+    cursor: pointer;
     padding:10px 20px;
+    transition: all 0.4s ease-in;
+    background-color: transparent;
 }
+
+.slide_container div a:hover{
+  background-color: rgb(241, 241, 241);
+
+  color:#282829!important;
+
+}
+
 
 .carousel-control-next{
     font-size:1.3em;
@@ -74,7 +110,6 @@
 .project_year{
 
     font-size:3em;
-
     margin-left: 20%;
 }
 
