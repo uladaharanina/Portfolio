@@ -5,6 +5,8 @@ import { Header } from './Header';
 import { Skills } from './Skills';
 import { Projects } from './Projects';
 import { Contacts } from './Contacts';
+import { Footer } from './Footer';
+
 
 export const Home = () => {
     return(
@@ -30,6 +32,7 @@ export const Home = () => {
             <section id="contacts">
               <Contacts></Contacts>
             </section>
+            <Footer></Footer>
         </div>
     
     )

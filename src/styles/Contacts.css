@@ -3,14 +3,14 @@
         width:90%;
         color:white;
         margin: 0 auto;
-        height: 90vh;
+        height: 100vh;
         font-family: 'Jura', Helvetica, sans-serif;
     }
 
     .ContactDivContainer h1{
         font-size:4em;
         margin-bottom: 1em;
-        margin-top: 30%;
+        margin-top: 40%;
 
     }
 
@@ -35,7 +35,7 @@
     form{
         margin-left: 10%;
         display: block;
-        background-color: transparent;
+        background-color: #282829;
         width:600px;
     }
     
@@ -59,6 +59,7 @@
         font-family: Jura, Roboto, sans-serif;
         width: 80%;
         height: 50px;
+        background-color: #282829;
         border:none;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
         color: #d4c4c4;
@@ -67,6 +68,7 @@
     form input[type='email']{
         width:90%;
         font-size:1em;
+        background-color: #282829;
         height: 50px;
         font-family: Jura, Roboto, sans-serif;
         color: #d4c4c4;
@@ -80,6 +82,7 @@
         margin: auto;
         font-size:1em;
         height: 80px;
+        background-color: #282829;
         font-family: Jura, Roboto, sans-serif;
         border: none;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
