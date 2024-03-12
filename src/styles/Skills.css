@@ -26,11 +26,16 @@
         margin-bottom: 2em;
     }
 
+
     #skill_set_container img{
         margin: 10px auto;
         transition: 0.5s all;
         display: block;
         cursor: pointer;
+    }
+
+    #portrait_img{
+        padding-top: 8%;
     }
 
     #skill_set_container img:hover{

@@ -1,9 +1,8 @@
 
-@media screen and (min-width:1200px){
-
     .HomeSectionContainer{  
         background-color: #282829;
         height: 100vh;
+        color: white;
     }
 
     .headerContainer{
@@ -46,4 +45,3 @@
     }
 
   
-}
