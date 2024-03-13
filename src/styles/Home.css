@@ -1,3 +1,4 @@
+@media screen and (min-width:1200px){
 
     ::-webkit-scrollbar{
         display: none;
@@ -58,3 +59,133 @@
         position: relative;
         z-index: 99;
     }
+
+}
+
+@media screen and (max-width:1199px) and (min-width:800px){
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .HomeSectionContainer{  
+        background-color: #282829;
+        height: 100vh;
+        color: white;
+    }
+
+    .headerContainer{
+        padding-top: 1%;
+    }
+
+    .introductionBlock{
+        width:80%;
+        padding-top: 10%;
+        margin:auto;
+    }
+    
+    /**Title**/
+    #HomeHeader{
+        margin: 4em 0 0;
+        padding: 0;
+        position: relative;
+        z-index: 999;
+    }
+
+
+    #title_lower_case{
+        font-family: Jura, sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        line-height: 2;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    #title_capital_case{
+        font-size: 1.9em;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 0.5;
+    }
+
+    #title_description{
+        font-family: Jura, sans-serif;
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+
+    #footer{
+        background-color: bisque!important;
+    }
+
+
+    .skillsSection, #contacts{
+        position: relative;
+        z-index: 99;
+    }
+
+}
+
+@media screen and (max-width:599px){
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .HomeSectionContainer{  
+        background-color: #282829;
+        height: 100vh;
+        color: white;
+    }
+
+    .headerContainer{
+        padding-top: 1%;
+    }
+
+    .introductionBlock{
+        width:80%;
+        padding-top: 10%;
+        margin:auto;
+    }
+    
+    /**Title**/
+    #HomeHeader{
+        margin: 4em 0 0;
+        padding: 0;
+        position: relative;
+        z-index: 999;
+    }
+
+
+    #title_lower_case{
+        font-family: Jura, sans-serif;
+        text-transform: uppercase;
+        font-size: 0.6em;
+        line-height: 2;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    #title_capital_case{
+        font-size: 1.4sem;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 0.9;
+    }
+
+    #title_description{
+        font-family: Jura, sans-serif;
+        font-size: 0.5em;
+        font-weight: 300;
+    }
+
+    #footer{
+        background-color: bisque!important;
+    }
+
+
+    .skillsSection, #contacts{
+        position: relative;
+        z-index: 99;
+    }
+
+}
