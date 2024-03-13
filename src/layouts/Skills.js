@@ -6,7 +6,7 @@ export const Skills = () => {
         <main id='About'>
         
         <div id="skill_set_container">
-            <img src="./images/portrait.png" id="portrait_img"></img>
+            <img src="./images/portrait.png" id="portrait_img" alt="portrait"></img>
             <h3>Here is my skill set:</h3>
         <section className='toolsIconsContainer'>
           <img className='iconImage' alt='html' src='./icons/html.png'></img>
