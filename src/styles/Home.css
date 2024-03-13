@@ -1,7 +1,3 @@
-    canvas{
-        position:absolute;
-        z-index: 9;
-    }
 
     ::-webkit-scrollbar{
         display: none;
@@ -57,3 +53,8 @@
         background-color: bisque!important;
     }
 
+
+    .skillsSection, #contacts{
+        position: relative;
+        z-index: 99;
+    }

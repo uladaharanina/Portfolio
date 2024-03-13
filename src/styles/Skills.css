@@ -2,6 +2,7 @@
 @media screen and (min-width:1200px){
 
     #About{
+        
         display: flex;
         justify-content:center;
         gap:40px;

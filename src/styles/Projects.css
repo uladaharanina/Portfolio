@@ -27,7 +27,7 @@
 
 .carousel-indicators{
     width:40%;
-    background-color: transparent;
+    background-color: #282829;
     margin: auto;
 }
 
@@ -37,12 +37,15 @@
     border: 2px solid rgba(255, 255, 255, 0.171);
     height: 10px;
     box-shadow: none;
+    background-color: #282829;
     margin: 2em 10px 0;
 
 }
 
 .carousel-indicators button:focus{
     outline:none;
+    background-color: white;
+
 }
 
 .active{
