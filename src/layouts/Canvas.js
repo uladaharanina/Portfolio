@@ -55,7 +55,7 @@ export const Canvas = () => {
             for (let i = 0; i < dotCord.length; i++) {
                 let dot1 = dotCord[i];
                 context.beginPath();
-                context.arc(dot1.x, dot1.y, 10, 0, Math.PI * 2); // Increase the radius to increase dot size
+                context.arc(dot1.x, dot1.y, 4, 0, Math.PI * 2); // Increase the radius to increase dot size
                 context.fillStyle = 'rgba(169, 178, 212, 0.29)';
                 context.fill();
                 context.closePath();

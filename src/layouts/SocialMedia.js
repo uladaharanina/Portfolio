@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styles/Social_Media.css'
 
 export const SocialMedia = () => {
