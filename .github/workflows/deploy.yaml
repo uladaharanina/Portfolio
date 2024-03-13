@@ -19,7 +19,7 @@ jobs:
           npm run build 
 
       - name: Deploy to GitHub Pages
-        uses: uladaharanina/Portfolio/
+        uses: uladaharanina/Portfolio/@main
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
