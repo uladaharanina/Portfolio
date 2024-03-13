@@ -1,4 +1,11 @@
+    canvas{
+        position:absolute;
+        z-index: 9;
+    }
 
+    ::-webkit-scrollbar{
+        display: none;
+    }
     .HomeSectionContainer{  
         background-color: #282829;
         height: 100vh;
@@ -19,6 +26,8 @@
     #HomeHeader{
         margin: 4em 0 0;
         padding: 0;
+        position: relative;
+        z-index: 999;
     }
 
 
