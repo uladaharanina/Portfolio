@@ -1,12 +1,12 @@
 name: 'Deploy to GitHub Pages'
 description: 'Deploy a static site to GitHub Pages'
-author: 'Ulada Haranina"
+author: 'Ulada Haranina'
 inputs:
   access_token:
     description: 'GitHub Personal Access Token'
     required: true
   branch:
-    description: 'Branch to deploy to gh-pages'
+    description: 'Branch to deploy to (e.g., gh-pages)'
     required: true
   folder:
     description: 'Folder containing the built site'
