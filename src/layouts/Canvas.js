@@ -1,11 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import "../styles/Canvas.css"
 
 export const Canvas = () => {
     const canvasRef = useRef(null);
-
-    //const [currentColor, setColor] = useState("rgba(94, 100, 121, 0.29)");
-    const colors = ["#4F4F4F", "#7C0F0F", "#73699C", "#915EFF"];
   
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -56,7 +53,7 @@ export const Canvas = () => {
                 let dot1 = dotCord[i];
                 context.beginPath();
                 context.arc(dot1.x, dot1.y, 4, 0, Math.PI * 2); // Increase the radius to increase dot size
-                context.fillStyle = 'rgba(169, 178, 212, 0.29)';
+                context.fillStyle = "#4F4F4F";
                 context.fill();
                 context.closePath();
                 for (let j = i + 1; j < dotCord.length; j++) {
@@ -66,7 +63,7 @@ export const Canvas = () => {
                         context.beginPath();
                         context.moveTo(dot1.x, dot1.y);
                         context.lineTo(dot2.x, dot2.y);
-                        context.strokeStyle = currentColor;
+                        context.strokeStyle = "#4F4F4F";
                         context.stroke();
                         context.closePath();
                     }
@@ -105,7 +102,7 @@ export const Canvas = () => {
         // Start animation
         animate();
   
-    }, [currentColor]); 
+    }, []); 
     
   
     
