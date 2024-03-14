@@ -43,7 +43,6 @@ export const Projects = () => {
                       The project is a commercial product and still in development mode, so I can't share it.
                       If you are a fellow developer interested in game development and want to contribute - please let me know! 
                     </p>
-                    <a href=''>See source Code</a>
                     </div>
                     <p className='project_year'>2023 - 2024</p>
               </div>
