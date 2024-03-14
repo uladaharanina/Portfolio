@@ -14,7 +14,7 @@ export const Projects = () => {
                  <div>
                  <h3>Food Delivery web service</h3>
                  <p>Made with HTML, CSS and Vanilla JavaScript</p>
-                  <a>See source Code</a>
+                  <a href='https://github.com/uladaharanina/restaurant-app'>See source Code</a>
                  </div>
                  <p className='project_year'>2021</p>
                 </div>
@@ -25,7 +25,7 @@ export const Projects = () => {
                   <div>
                     <h3>Feelu - personal mood tracker</h3>
                     <p>Made with HTML, CSS and Vanilla JavaScript</p>
-                    <a>See source Code</a>
+                    <a href='https://github.com/uladaharanina/mood-app'>See source Code</a>
                  </div>
                  <p className='project_year'>2022</p>
               </div>
@@ -43,7 +43,7 @@ export const Projects = () => {
                       The project is a commercial product and still in development mode, so I can't share it.
                       If you are a fellow developer interested in game development and want to contribute - please let me know! 
                     </p>
-                    <a>See source Code</a>
+                    <a href=''>See source Code</a>
                     </div>
                     <p className='project_year'>2023 - 2024</p>
               </div>

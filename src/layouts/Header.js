@@ -1,12 +1,10 @@
-import React,  { useState } from 'react';
+import React from 'react';
 import '../styles/Header.css'
 
 export const Header = () => {
 
-    const [isScrolling, setIsScrolling] = useState(false);
 
     const handleScrollToSection = (sectionId) => {
-        setIsScrolling(true);
         const section = document.getElementById(sectionId);
         section.scrollIntoView({ behavior: 'smooth' });
   };
@@ -14,15 +12,15 @@ export const Header = () => {
             <header>
                 <section>
                     <div id ="logo_container">
-                        <img src='./images/logo.png'></img>
+                        <img src='./images/logo.png' alt="logo"></img>
                     <p>&lt;Dev/&gt; Ulada Haranina</p>
 
                     </div>
                     <ul>
-                        <li onClick={() => handleScrollToSection('home')}><a>Home</a></li>
-                        <li onClick={() => handleScrollToSection('skills')}><a>About</a></li>
-                        <li onClick={() => handleScrollToSection('projects')}><a>Projects</a></li>
-                        <li onClick={() => handleScrollToSection('contacts')}><a>Contact Me</a></li>
+                        <li onClick={() => handleScrollToSection('home')}><a href="#home">Home</a></li>
+                        <li onClick={() => handleScrollToSection('skills')}><a href="#about">About</a></li>
+                        <li onClick={() => handleScrollToSection('projects')}><a href="#project">Projects</a></li>
+                        <li onClick={() => handleScrollToSection('contacts')}><a href="#contact">Contact Me</a></li>
                     </ul>
                 </section>
                
