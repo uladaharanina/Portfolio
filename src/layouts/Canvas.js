@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import "../styles/Canvas.css"
 
 export const Canvas = () => {
     const canvasRef = useRef(null);
 
-    const [currentColor, setColor] = useState("rgba(94, 100, 121, 0.29)");
+    //const [currentColor, setColor] = useState("rgba(94, 100, 121, 0.29)");
     const colors = ["#4F4F4F", "#7C0F0F", "#73699C", "#915EFF"];
   
     useEffect(() => {

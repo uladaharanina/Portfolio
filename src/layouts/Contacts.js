@@ -7,7 +7,7 @@ export const Contacts = () => {
         <div className="ContactDivContainer">
             <main className="ContactsMainContainer">
    
-                <section>
+                <section id="chat_section">
                  <h1>Let's Chat</h1>
                     <p>Don't hesitate to reach out if you have any questions, need advice, or require my services. 
                     Simply fill out the form below or reach me directly via email. <br></br><br></br>
