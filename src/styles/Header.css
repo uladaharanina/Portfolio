@@ -7,13 +7,14 @@
         border-radius: 10px;
         position: fixed;
         z-index: 999999;
-        background-color: #282829;
+        background-color: #252529;
     }
+
 
     header section{
         width:100%;
         padding: 2% 0;
-        background-color: #282829;
+        background-color: #252529;
         margin: auto;
     }
 
@@ -110,13 +111,13 @@
         border-radius: 10px;
         position: fixed;
         z-index: 999999;
-        background-color: #282829;
+        background-color: #252529;
     }
 
     header section{
         width:100%;
         padding: 2% 0;
-        background-color: #282829;
+        background-color: #252529;
         margin: auto;
     }
 
@@ -165,7 +166,7 @@
         color: #FFFFFF;
         display: inline-block;
         font-family: Jura, Roboto, sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
         cursor: pointer;
        
     }

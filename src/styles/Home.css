@@ -4,7 +4,7 @@
         display: none;
     }
     .HomeSectionContainer{  
-        background-color: #282829;
+        background-color: #252529;
         height: 100vh;
         color: white;
     }
@@ -68,7 +68,7 @@
         display: none;
     }
     .HomeSectionContainer{  
-        background-color: #282829;
+        background-color: #252529;
         height: 100vh;
         color: white;
     }
@@ -95,14 +95,14 @@
     #title_lower_case{
         font-family: Jura, sans-serif;
         text-transform: uppercase;
-        font-size: 1.2em;
+        font-size: 1.4em;
         line-height: 2;
         margin: 0;
         font-weight: 300;
     }
 
     #title_capital_case{
-        font-size: 1.9em;
+        font-size: 2em;
         font-weight: 300;
         text-transform: uppercase;
         line-height: 0.5;
@@ -110,7 +110,7 @@
 
     #title_description{
         font-family: Jura, sans-serif;
-        font-size: 0.6em;
+        font-size: 0.7em;
         font-weight: 300;
     }
 
@@ -132,7 +132,7 @@
         display: none;
     }
     .HomeSectionContainer{  
-        background-color: #282829;
+        background-color: #252529;
         height: 100vh;
         color: white;
     }
@@ -142,8 +142,9 @@
     }
 
     .introductionBlock{
-        width:80%;
-        padding-top: 10%;
+        width:90%;
+        padding-top: 40%;
+        text-align: center;
         margin:auto;
     }
     
@@ -159,23 +160,25 @@
     #title_lower_case{
         font-family: Jura, sans-serif;
         text-transform: uppercase;
-        font-size: 0.6em;
+        font-size: 1em;
         line-height: 2;
         margin: 0;
         font-weight: 300;
     }
 
     #title_capital_case{
-        font-size: 1.4sem;
+        font-size: 1.7em;
         font-weight: 300;
+        text-align: center;
         text-transform: uppercase;
         line-height: 0.9;
     }
 
     #title_description{
         font-family: Jura, sans-serif;
-        font-size: 0.5em;
-        font-weight: 300;
+        font-size: 16px;
+        line-height: 0.2;
+        font-weight: 400;
     }
 
     #footer{

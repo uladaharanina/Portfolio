@@ -129,6 +129,7 @@
     .ContactDivContainer{
         width:90%;
         color:white;
+        background-color: #252529;
         margin: 0 auto;
         height: 100vh;
         font-family: 'Jura', Helvetica, sans-serif;
@@ -138,6 +139,7 @@
         font-size:4em;
         margin-bottom: 1em;
         margin-top: 60%;
+        text-align: center;
 
     }
 
@@ -204,7 +206,6 @@
         color: #d4c4c4;
         border: none;
         background-color: transparent;
-
         margin: auto;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
     }
@@ -259,6 +260,7 @@
     .ContactDivContainer{
         width:90%;
         color:white;
+        background-color: #252529;
         margin:0 auto 3em;
         font-family: 'Jura', Helvetica, sans-serif;
     }
@@ -267,17 +269,19 @@
         font-size:2em;
         margin-bottom: 1em;
         text-align: center;
-        margin-right: 10%;
     }
 
     .ContactDivContainer section p{
         width:90%;
         font-size:1.3em;
+        margin: auto;
         text-align: center;
     }
 
     .ContactDivContainer section span{
-        margin-left: 3em;
+        text-align: center;
+        margin: 1em auto;
+        display: block;
     }
 
     #chat_section{
@@ -286,13 +290,15 @@
 
     #user_data{
         display: flex;
+        width:100%;
+        
     }
     #user_data div{
         width:100%;
     }
 
     form::before{
-        content: "Use form below to send me message!";
+        content: "Use form below to send me a message!";
         font-size: 1.1em;
         text-align: center;
         display: block;
@@ -303,9 +309,9 @@
     form{
         margin-top: 10%;
         border-radius: 5px;
-        padding: 10px;
-     display: block;
-        background-color: #282829;
+        padding: 20px;
+        display: block;
+        background-color: #252529;
         width:100%;
     }
     

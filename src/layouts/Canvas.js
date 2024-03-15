@@ -8,7 +8,7 @@ export const Canvas = () => {
         const canvas = canvasRef.current;
         const context = canvas.getContext('2d');
   
-        let dots = 30;
+        let dots = window.innerWidth < 600 ? 15: 30;
         const dotCord = [];
   
         // Generate random coordinates and velocities for dots
