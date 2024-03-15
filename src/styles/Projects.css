@@ -123,18 +123,20 @@
 @media screen and (max-width:1599px){
     
     .projectMainContainer{
-        display: none;
-        width:90%;
+        display: block;
         height: 100vh;
-        margin:  auto;
+        width:99%;
+        margin: 0 auto 10em;
+        padding-bottom: 3em;
     }
 
     
 .projectMainContainer h2{
-    font-size: 3em;
+    font-size: 2em;
     line-height: 2.6;
+    text-align: center;
     color:white;
-    margin-left: 10%;
+    padding-top: 35%;
     font-weight: 300;
 }
 
@@ -148,51 +150,43 @@
 }
 
 .carousel-indicators{
-    width:40%;
-    bottom:-50%;
-    left:20%;
-    margin: auto;
+    display: none;
+
 }
 
 .carousel-indicators button{
-    width:50px;
-    border-radius: 2px;
-    border: 2px solid rgba(255, 255, 255, 0.171);
-    height: 10px;
-    box-shadow: none;
-    background-color: #252529;
-    margin: 2em 10px 0;
+   display: none;
 
 }
 
 .carousel-indicators button:focus{
     outline:none;
-    background-color: white;
+    display: none; 
 
 }
 
 .active{
-    background-color: white;
-    outline: none;
+    display: none; 
 }
 
 .carousel_container img{
-    width:150px;
-    margin-left: 4%;
-    margin-right: 5%;
+    width:50%;
+    margin: auto;
+    display: block;
 }
 
 .slide_container{
 
     color:white;
-    background-color: #282829;
-    display: flex;
-    align-items: center;
+    background-color: #252529;
+
 }
 
 .slide_container div h3{
 
-    font-size: 1.6em;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2em;
     line-height: 2;
 }
 
@@ -203,15 +197,21 @@
 }
 
 .slide_container:last-of-type div p{
-    width:600px;
+    width:100%;
+    text-align: center;
     margin-bottom: 1.5em;
 }
 
 .slide_container div a{
     border: 2px solid white;
     font-size: 1.2em;
+    color:white;
+    text-align: center;
+    margin: auto;
+    width:90%;
     cursor: pointer;
-    padding:10px 20px;
+    display:block;
+    padding:10px;
     transition: all 0.4s ease-in;
     background-color: transparent;
 }
@@ -224,10 +224,7 @@
 
 
 .carousel-control-next{
-    font-size:1.3em;
-    padding: 10px;
-    width:40px;
-    text-indent: -9999px;
+   display: none;
 }
 
 
@@ -239,7 +236,9 @@
 .project_year{
 
     font-size:1.5em;
-    margin-left: 5%;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    text-align: center;
 }
 
 }

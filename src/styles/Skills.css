@@ -289,16 +289,15 @@
         line-height: 2.6;
         margin-top: 1em;
         margin-left: 5%;
-        text-align: left;
+        text-align: center;
         font-weight: 300;
     }
 
     .storyLine_paragraph_data p{
         font-size:1.1em;
-        align-self: baseline;
         height: 100%;
         margin-left: 1em;
-        width:90%;
+        width:100%;
     }
 
     .storyLine_paragraph_data::before{
