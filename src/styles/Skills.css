@@ -112,7 +112,7 @@
 }
 
 
-@media screen and (max-width:1499px) and (min-width:500px){
+@media screen and (max-width:1499px) and (min-width:700px){
 
     #About{
         
@@ -219,7 +219,7 @@
 
 }
 
-@media screen and (max-width:499px){
+@media screen and (max-width:699px){
 
     #About{
         background-color: #252529;

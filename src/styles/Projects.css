@@ -1,4 +1,6 @@
-@media screen and (min-width:1600px){
+/*Desktop*/
+
+@media screen and (min-width:1300px){
 .projectMainContainer{
     margin-top: 10%;
     padding: 2em 0;
@@ -11,7 +13,8 @@
     font-size: 3em;
     line-height: 2.6;
     color:white;
-    margin-left: 10%;
+    width:1300px;
+    margin:auto;
     margin-top: 10%;
     font-weight: 300;
 }
@@ -19,15 +22,18 @@
 .carousel_container{
 
     height: 100%;
-    width:90%;
-    padding: 0 20px;
-    margin:auto;
+    width:100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 6em;
+
+
     
 }
 
 .carousel-indicators{
     width:40%;
-    margin: auto;
+    margin:  -3em auto;
 }
 
 .carousel-indicators button{
@@ -54,8 +60,8 @@
 
 .carousel_container img{
     width:200px;
-    margin-left: 4%;
     margin-right: 5%;
+
 }
 
 .slide_container{
@@ -116,11 +122,203 @@
 .project_year{
 
     font-size:2.6em;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 }
-@media screen and (max-width:1599px){
+
+
+/*Change project year size for tablet and small desktop screens*/
+@media screen and (min-width:900px) and (max-width:1599px){
+    .project_year{
+
+        font-size:2.4em;
+        margin-left: 5%!important;
+
+    }
+}
+
+
+/*Tablets*/
+
+@media screen and (max-width:1299px) and (min-width:675px){
+    .projectMainContainer{
+        margin-top: 20%;
+        padding: 6em 0;
+        width:100%;
+        min-height: 100vh;
+        font-family: 'Jura', Helvetica, sans-serif;
+    
+    }
+    
+    .projectMainContainer h2{
+        font-size: 2em;
+        line-height: 2.6;
+        color:white;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 20%;
+        font-weight: 300;
+    }
+    
+    .carousel_container{
+    
+        height: 100%;
+        width:100%;
+        padding: 0 20px;
+        margin:auto;
+    }
+    
+    .carousel-indicators{
+        width:40%;
+        margin: 0 auto;
+    }
+    
+    .carousel-indicators button{
+        width:50px;
+        border-radius: 2px;
+        border: 2px solid rgba(255, 255, 255, 0.171);
+        height: 10px;
+        box-shadow: none;
+        background-color: #252529;
+        margin: 2em 10px 0;
+    
+    }
+    
+    .carousel-indicators button:focus{
+        outline:none;
+        background-color: white;
+    
+    }
+    
+    .active{
+        background-color: white;
+        outline: none;
+    }
+    
+    .carousel_container img{
+        width:200px;
+        margin-right: 5%;
+    }
+    
+    .slide_container{
+    
+        color:white;
+        background-color: #252529;
+        display: flex;
+        align-items: center;
+    }
+    
+    .slide_container div h3{
+    
+        font-size: 1.2em;
+        width:100%;
+        line-height: 2;
+    }
+    
+    .slide_container div p{
+        font-size:1.1em;
+        font-weight: 300;
+        max-width: 400px;
+    }
+    
+    .slide_container:last-of-type div p{
+        margin-bottom: 1.5em;
+    }
+    
+    .slide_container div a{
+        border: 2px solid white;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: white;
+        padding:10px 20px;
+        transition: all 0.4s ease-in;
+        background-color: transparent;
+    }
+    
+    .slide_container div a:hover{
+      background-color: rgb(241, 241, 241);
+    
+      color:#282829!important;
+    
+    }
+    
+    
+    .carousel-control-next{
+        font-size:1.3em;
+        padding: 10px;
+        width:40px;
+        text-indent: -9999px;
+    }
+    
+    
+    .carousel-control-prev, .carousel-control-next{  
+        display: none; 
+        }
+    
+    
+    .project_year{
+    
+        font-size:2.4em;
+        position: absolute;
+        right:0;
+    }
+    
+    }
+
+
+/*Fix year display*/
+
+@media screen and (min-width:674px) and (max-width:843px){
+
+    .project_year{
+    display: none;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+
+ @media screen and (max-width:700px) and (min-width:540px){
+        .projectMainContainer{
+            margin: 0 auto 3em;
+            padding-bottom: 4em;
+        }
+
+        .carousel_container{
+    
+            width:100%;
+            padding: 0 20px;
+            margin:auto;
+        }
+
+        .carousel_container img{
+            width: 30%!important;
+        }
+
+
+    .slide_container div a{
+        border: 2px solid white;
+        font-size: 1.2em;
+        color:white;
+        text-align: center;
+        margin: auto;
+        width: 300px !important;;
+        cursor: pointer;
+        display:block;
+        padding:10px;
+        transition: all 0.4s ease-in;
+        background-color: transparent;
+    }
+
+
+    }
+
+
+/*Smartphones*/
+@media screen and (max-width:674px) {
     
     .projectMainContainer{
         display: block;
@@ -132,11 +330,11 @@
 
     
 .projectMainContainer h2{
-    font-size: 2em;
+    font-size: 3em;
     line-height: 2.6;
     text-align: center;
     color:white;
-    padding-top: 35%;
+    padding-top: 25%;
     font-weight: 300;
 }
 
@@ -192,7 +390,7 @@
 
 .slide_container div p{
     font-size:1em;
-    width: 95% !important;
+    width: 600px;
     font-weight: 300;
 }
 
@@ -237,8 +435,9 @@
 
     font-size:1.5em;
     margin-top: 1em;
-    margin-bottom: 5em;
     text-align: center;
 }
 
 }
+
+
