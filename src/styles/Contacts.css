@@ -323,7 +323,7 @@ form input:focus{
         margin-top: 10%;
         padding: 20px;
         display: block;
-        background-color: #252529;
+        background-color: transparent;
         width:100%;
     }
     
