@@ -352,6 +352,8 @@ form input:focus{
         border:none;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
         color: #f0e7e7;
+        border-radius: 0;
+
     }
 
     form input[type='email']{
@@ -362,7 +364,7 @@ form input:focus{
         color: #d4c4c4;
         border: none;
         background-color: transparent;
-
+        border-radius: 0;
         margin: auto;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
     }
@@ -375,6 +377,7 @@ form input:focus{
         background-color: transparent;
         font-family: Jura, Roboto, sans-serif;
         border: none;
+        border-radius: 0;
         border-bottom: 2px solid rgba(255, 255, 255, 0.705);
         color: #d4c4c4;
     }
