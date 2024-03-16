@@ -24,6 +24,7 @@ export const Skills = () => {
           <img className='iconImage' alt='node' src='./icons/postgresql_.png'></img>
           <img className='iconImage' alt='Spring Boot' src='./icons/mongodb_.png'></img>
         </section>
+       
         </div>
   
 
@@ -40,6 +41,9 @@ After moving to the US, I found myself in love with software development. In 202
           <div className='storyLine_paragraph_data'>
             <p>I graduated with a Bachelor of Science in Computer Science in June 2023. I have multiple complex projects, including the creation of my video game for mobile platforms. Currently, I work on a start-up as a software developer, and additionally, I mentor students in languages such as Python, Java, and JavaScript.</p>
           </div>
+          <a href='/resume.pdf' download id="resume_icon"> Download Resume
+                
+            </a>
         </section>
     </main>
     )

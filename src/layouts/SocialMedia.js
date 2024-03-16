@@ -13,6 +13,8 @@ export const SocialMedia = () => {
             <a href='https://www.linkedin.com/in/uladaharanina/'>
                 <img src="./icons/linkedin.png" alt="Linkedin"></img>
             </a>
+
+        
             <section></section>
         </div>
     )
