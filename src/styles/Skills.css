@@ -1,4 +1,14 @@
 
+.noImage{
+    opacity: 0;
+    display: none;
+}
+
+.hideSkillText{
+    opacity: 0;
+}
+
+
 @media screen and (min-width:1500px){
 
     #About{
@@ -36,20 +46,18 @@
     }
 
 
-    #skill_set_container img{
+    #portrait_img{
         margin: 10px auto;
         transition: 0.5s all;
         display: block;
-        cursor: pointer;
+        cursor:url('pointer.png') !important;
+        
     }
 
     #portrait_img{
         padding-top: 8%;
     }
 
-    #skill_set_container img:hover{
-        transform: scale(1.1);
-    }
 
     .toolsIconsContainer{
         display: grid;
@@ -58,10 +66,23 @@
         gap: 5px;
     }
 
-    .toolsIconsContainer img{
+    .skillText{
+
+        text-align: center;
+        display: block;
+        transition: 2s opacity;
+        opacity: 1;
+        position: relative;
+        top:50%;
+    }
+
+
+    .iconImage{
         width:60px;
         margin: 10px;
-
+        display: block;
+        opacity: 1;
+        transition: 3s all;
     }
 
     #storyline{
@@ -120,7 +141,7 @@
 }
 
 
-@media screen and (max-width:1499px) and (min-width:700px){
+@media screen and (max-width:1499px) and (min-width:700px){v
 
     #About{
         
@@ -148,15 +169,11 @@
     }
 
 
-    #skill_set_container img{
+    #portrait_img{
         margin: 10px auto;
         transition: 0.5s all;
         display: block;
-        cursor: pointer;
-    }
-
-    #skill_set_container img:hover{
-        transform: scale(1.1);
+        cursor: url('pointer.png')!important;
     }
 
     .toolsIconsContainer{
@@ -166,10 +183,27 @@
         gap: 5px;
     }
 
-    .toolsIconsContainer img{
-        width:70%;
+    .skillText{
+
+        text-align: center;
+        display: block;
+        transition: 2s opacity;
+        opacity: 1;
+        position: relative;
+        top:60%;
+        color:white;
 
     }
+
+
+    .iconImage{
+        width:70%;
+        margin: 10px;
+        display: block;
+        opacity: 1;
+        transition: 3s all;
+    }
+
 
     #storyline{
         margin-top: 10%;
@@ -268,15 +302,28 @@
     }
 
 
-    #skill_set_container img{
-        transition: 0.5s all;
+    .skillText{
+
+        text-align: center;
         display: block;
-        cursor: pointer;
+        transition: 2s opacity;
+        opacity: 1;
+        position: relative;
+        top:60%;
+        color:white;
+
     }
 
-    #skill_set_container img:hover{
-        transform: scale(1.1);
+
+    .iconImage{
+        width:70%;
+        margin: 10px;
+        display: block;
+        opacity: 1;
+        transition: 3s all;
     }
+
+
 
     .toolsIconsContainer{
         display: grid;

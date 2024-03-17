@@ -1,7 +1,23 @@
-import React from 'react';
+import React , {useState} from 'react';
 import '../styles/Skills.css'
 
 export const Skills = () => {
+
+  const[hoveredSkillIndex, setIndex] = useState(-1);
+  const skills = ['html', 'css', 'javascript', 'Git', 'java', 'python', 'node', 'Springboot', 'React', 'angular', 'rest', 'saas', 'postgresql', 'mongodb','wordpress'];
+
+  const displaytext = (key) => {
+
+      setIndex(key);
+  }
+
+
+  const displayImage = () => {
+
+      setTimeout(() => { setIndex(-1);
+      }, 1600)
+  }
+
     return(
         <main id='About'>
         
@@ -9,20 +25,14 @@ export const Skills = () => {
             <img src="./images/portrait.png" id="portrait_img" alt="portrait"></img>
             <h3>Here is my skill set:</h3>
         <section className='toolsIconsContainer'>
-          <img className='iconImage' alt='html' src='./icons/html.png'></img>
-          <img className='iconImage' alt='css' src='./icons/css.png'></img>
-          <img className='iconImage' alt='javascript' src='./icons/js.png'></img>
-          <img className='iconImage' alt='Git' src='./icons/wordpress_.png'></img>
-          <img className='iconImage' alt='java' src='./icons/java.png'></img>
-          <img className='iconImage' alt='python' src='./icons/python.png'></img>
-          <img className='iconImage' alt='node' src='./icons/node.png'></img>
-          <img className='iconImage' alt='Spring Boot' src='./icons/springboot.png'></img>
-          <img className='iconImage' alt='React' src='./icons/react.png'></img>
-          <img className='iconImage' alt='css' src='./icons/angular.png'></img>
-          <img className='iconImage' alt='React' src='./icons/rest.png'></img>
-          <img className='iconImage' alt='css' src='./icons/saas.png'></img>
-          <img className='iconImage' alt='node' src='./icons/postgresql_.png'></img>
-          <img className='iconImage' alt='Spring Boot' src='./icons/mongodb_.png'></img>
+          {skills.map((skill, index) => (
+              <div key={index} onMouseLeave={() => displayImage()} onMouseOver={() => displaytext(index)} >
+                <span className={hoveredSkillIndex === index ? "skillText": "hideSkillText"}>{skill.toLocaleUpperCase()}</span>
+                <img className={hoveredSkillIndex !== index ? "iconImage": "noImage"} alt={skill} src={`./icons/${skill.toLowerCase()}.png`} ></img>
+              </div>
+
+          ))}
+         
         </section>
        
         </div>
