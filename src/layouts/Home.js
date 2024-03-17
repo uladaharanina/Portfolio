@@ -21,7 +21,7 @@ export const Home = () => {
           <section className='introductionBlock'>
             <h1 id="HomeHeader">
               <span id = "title_lower_case">Hello, I am</span><br></br> 
-                <span id ="title_capital_case">Vlada Haranina</span><br></br> 
+                <span id ="title_capital_case">Ulada Haranina</span><br></br> 
                 <span id = "title_description">A Professional Software And Web Developer</span
             ></h1>
           </section>
